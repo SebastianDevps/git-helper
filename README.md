@@ -2,7 +2,7 @@
 
 Sistema de validación automática de commits con formato personalizado y CLI interactivo para gestión de ramas.
 
-[![npm version](https://img.shields.io/npm/v/@mv-team/git-commit-validator.svg)](https://www.npmjs.com/package/@mv-team/git-commit-validator)
+[![npm version](https://img.shields.io/npm/v/@sebastiandevp/git-commit-validator.svg)](https://www.npmjs.com/package/@sebastiandevp/git-commit-validator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Características
@@ -21,22 +21,22 @@ Sistema de validación automática de commits con formato personalizado y CLI in
 ### Instalación Rápida (Recomendada)
 
 ```bash
-npx @mv-team/git-commit-validator
+npx @sebastiandevp/git-commit-validator
 ```
 
 ### Instalación Global
 
 ```bash
-npm install -g @mv-team/git-commit-validator
+npm install -g @sebastiandevp/git-commit-validator
 setup-git-validator
 ```
 
 ### Como Dependencia de Desarrollo
 
 ```bash
-npm install --save-dev @mv-team/git-commit-validator
+npm install --save-dev @sebastiandevp/git-commit-validator
 # o
-yarn add -D @mv-team/git-commit-validator
+yarn add -D @sebastiandevp/git-commit-validator
 
 # Luego ejecuta:
 npx setup-git-validator
@@ -225,7 +225,7 @@ Si no tienes Python:
 Para desinstalar completamente el validador:
 
 ```bash
-npx @mv-team/git-commit-validator --uninstall
+npx @sebastiandevp/git-commit-validator --uninstall
 ```
 
 Esto:
@@ -263,7 +263,7 @@ git commit -n -m "Mensaje sin formato"
 ### Reinstalar
 
 ```bash
-npx @mv-team/git-commit-validator
+npx @sebastiandevp/git-commit-validator
 ```
 
 ---
@@ -280,7 +280,7 @@ ls -la .git/hooks/commit-msg
 chmod +x .git/hooks/commit-msg
 
 # 3. Reinstalar
-npx @mv-team/git-commit-validator
+npx @sebastiandevp/git-commit-validator
 ```
 
 ### Python no encontrado
@@ -354,7 +354,7 @@ Ver [LICENSE](LICENSE) para más detalles.
 ## 🔗 Links
 
 - [GitHub](https://github.com/SebastianDevps/git-helper)
-- [npm](https://www.npmjs.com/package/@mv-team/git-commit-validator)
+- [npm](https://www.npmjs.com/package/@sebastiandevp/git-commit-validator)
 - [Documentación completa](https://github.com/SebastianDevps/git-helper#readme)
 
 ---

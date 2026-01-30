@@ -1,5 +1,5 @@
 {
-  "name": "@mv-team/git-commit-validator",
+  "name": "@sebastiandevp/git-commit-validator",
   "version": "1.2.0",
   "description": "Sistema de validación automática de commits con formato personalizado y CLI interactivo. Valida commits con patrón Tipo|IdTarea|YYYYMMDD|Descripción",
   "main": "index.js",
