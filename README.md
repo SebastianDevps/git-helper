@@ -2,7 +2,7 @@
 
 Sistema de validación automática de commits con formato personalizado y CLI interactivo para gestión de ramas.
 
-[![npm version](https://img.shields.io/npm/v/@mv/git-commit-validator.svg)](https://www.npmjs.com/package/@mv/git-commit-validator)
+[![npm version](https://img.shields.io/npm/v/@mv-team/git-commit-validator.svg)](https://www.npmjs.com/package/@mv-team/git-commit-validator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Características
@@ -21,22 +21,22 @@ Sistema de validación automática de commits con formato personalizado y CLI in
 ### Instalación Rápida (Recomendada)
 
 ```bash
-npx @mv/git-commit-validator
+npx @mv-team/git-commit-validator
 ```
 
 ### Instalación Global
 
 ```bash
-npm install -g @mv/git-commit-validator
+npm install -g @mv-team/git-commit-validator
 setup-git-validator
 ```
 
 ### Como Dependencia de Desarrollo
 
 ```bash
-npm install --save-dev @mv/git-commit-validator
+npm install --save-dev @mv-team/git-commit-validator
 # o
-yarn add -D @mv/git-commit-validator
+yarn add -D @mv-team/git-commit-validator
 
 # Luego ejecuta:
 npx setup-git-validator
@@ -263,7 +263,7 @@ git commit -n -m "Mensaje sin formato"
 ### Reinstalar
 
 ```bash
-npx @mv/git-commit-validator
+npx @mv-team/git-commit-validator
 ```
 
 ---
@@ -280,7 +280,7 @@ ls -la .git/hooks/commit-msg
 chmod +x .git/hooks/commit-msg
 
 # 3. Reinstalar
-npx @mv/git-commit-validator
+npx @mv-team/git-commit-validator
 ```
 
 ### Python no encontrado
@@ -332,22 +332,30 @@ yarn git:helper
 
 ¿Encontraste un bug o tienes una sugerencia?
 
-1. Abre un issue: https://github.com/TU-USUARIO/git-commit-validator/issues
+1. Abre un issue: https://github.com/SebastianDevps/git-helper/issues
 2. Envía un PR con tus cambios
+
+**Nota:** Este proyecto está bajo GPL-3.0, cualquier contribución debe ser compatible con esta licencia.
 
 ---
 
 ## 📄 Licencia
 
-MIT © [Tu Nombre]
+GPL-3.0 © 2025 Sebastian Guerra
+
+Este proyecto está licenciado bajo GNU General Public License v3.0.
+Esto significa que puedes usar, modificar y distribuir este software,
+pero cualquier modificación debe ser también open source bajo GPL-3.0.
+
+Ver [LICENSE](LICENSE) para más detalles.
 
 ---
 
 ## 🔗 Links
 
-- [GitHub](https://github.com/TU-USUARIO/git-commit-validator)
-- [npm](https://www.npmjs.com/package/@mv/git-commit-validator)
-- [Documentación completa](https://github.com/TU-USUARIO/git-commit-validator#readme)
+- [GitHub](https://github.com/SebastianDevps/git-helper)
+- [npm](https://www.npmjs.com/package/@mv-team/git-commit-validator)
+- [Documentación completa](https://github.com/SebastianDevps/git-helper#readme)
 
 ---
 

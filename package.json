@@ -34,12 +34,12 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mv-team/git-commit-validator.git"
+    "url": "https://github.com/SebastianDevps/git-helper.git"
   },
   "bugs": {
-    "url": "https://github.com/mv-team/git-commit-validator/issues"
+    "url": "https://github.com/SebastianDevps/git-helper/issues"
   },
-  "homepage": "https://github.com/mv-team/git-commit-validator#readme",
+  "homepage": "https://github.com/SebastianDevps/git-helper#readme",
   "engines": {
     "node": ">=14.0.0"
   },
