@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentación
+    url: https://github.com/sebastiandevp/git-commit-validator/blob/main/README.md
+    about: Consulta la documentación completa del proyecto
+  - name: Preguntas y Discusiones
+    url: https://github.com/sebastiandevp/git-commit-validator/discussions
+    about: Para preguntas generales, usa las Discussions en lugar de Issues

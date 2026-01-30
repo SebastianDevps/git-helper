@@ -1,0 +1,74 @@
+name: Bug Report
+description: Reportar un error o problema con git-commit-validator
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar un bug. Por favor, completa la información siguiente para ayudarnos a resolver el problema.
+
+  - type: input
+    id: version
+    attributes:
+      label: Versión
+      description: ¿Qué versión de git-commit-validator estás usando?
+      placeholder: "ej: 1.2.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del problema
+      description: Describe claramente el bug que encontraste
+      placeholder: Explica qué pasó y qué esperabas que pasara
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: ¿Cómo podemos reproducir este problema?
+      placeholder: |
+        1. Ejecutar comando '...'
+        2. Ver el error en '...'
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+      description: ¿Qué esperabas que sucediera?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamiento actual
+      description: ¿Qué está sucediendo en su lugar?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      description: Información sobre tu entorno
+      placeholder: |
+        - OS: [ej: Windows 11, macOS 14, Ubuntu 22.04]
+        - Node.js: [ej: v18.17.0]
+        - Python: [ej: 3.11.0]
+        - Git: [ej: 2.42.0]
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Información adicional
+      description: Cualquier otra información relevante (logs, screenshots, etc.)
