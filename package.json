@@ -30,7 +30,7 @@
     "commit-format",
     "team-workflow"
   ],
-  "author": "Sebastian Guerra <sebastian.guerra@example.com>",
+  "author": "Sebastian Guerra",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
