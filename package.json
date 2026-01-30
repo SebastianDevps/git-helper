@@ -1,0 +1,54 @@
+{
+  "name": "@mv-team/git-commit-validator",
+  "version": "1.2.0",
+  "description": "Sistema de validación automática de commits con formato personalizado y CLI interactivo. Valida commits con patrón Tipo|IdTarea|YYYYMMDD|Descripción",
+  "main": "index.js",
+  "bin": {
+    "setup-git-validator": "./cli.js",
+    "git-helper": "./git-helper.js"
+  },
+  "scripts": {
+    "test": "npm run test:regex && npm run test:edge && npm run test:hook && npm run test:stress",
+    "test:regex": "node tests/regex.test.js",
+    "test:edge": "node tests/edge-cases.test.js",
+    "test:hook": "node tests/hook-validator.test.js",
+    "test:stress": "node tests/stress.test.js",
+    "test:all": "npm test",
+    "prepublishOnly": "npm test",
+    "prepare": "node cli.js --help || true"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "validator",
+    "hooks",
+    "cli",
+    "git-hooks",
+    "commit-message",
+    "conventional-commits",
+    "git-validation",
+    "commit-format",
+    "team-workflow"
+  ],
+  "author": "Sebastian Guerra <sebastian.guerra@example.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mv-team/git-commit-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mv-team/git-commit-validator/issues"
+  },
+  "homepage": "https://github.com/mv-team/git-commit-validator#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "cli.js",
+    "git-helper.js",
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}
