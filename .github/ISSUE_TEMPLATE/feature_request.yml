@@ -1,0 +1,40 @@
+name: Feature Request
+description: Sugerir una nueva funcionalidad para git-commit-validator
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por sugerir una mejora. Por favor, describe tu idea con el mayor detalle posible.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema que resuelve
+      description: ¿Qué problema o necesidad aborda esta funcionalidad?
+      placeholder: Actualmente es difícil/imposible hacer X porque...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solución propuesta
+      description: Describe cómo te gustaría que funcionara esta funcionalidad
+      placeholder: Me gustaría poder...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: ¿Has considerado otras formas de resolver esto?
+      placeholder: También pensé en...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Contexto adicional
+      description: Cualquier otra información, screenshots, ejemplos, etc.

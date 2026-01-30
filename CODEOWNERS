@@ -1,0 +1,12 @@
+# Code Owners for git-commit-validator
+# Estos usuarios son requeridos como reviewers en PRs que afecten estos archivos
+
+# Propietario por defecto de todo el repositorio
+* @sebastiandevp
+
+# Archivos críticos del proyecto
+/.github/ @sebastiandevp
+/package.json @sebastiandevp
+/cli.js @sebastiandevp
+/index.js @sebastiandevp
+/LICENSE @sebastiandevp
